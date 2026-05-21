@@ -22,13 +22,7 @@ export function Header() {
     <header className="bg-card py-4 shadow-md relative">
       <div className="container mx-auto flex items-center justify-center gap-3">
         <Link href="/">
-          <Image
-            src="https://firebasestorage.googleapis.com/v0/b/ralfeedback.firebasestorage.app/o/img%2FRAL-logo-75%20(1).png?alt=media&token=a4c0cf51-d568-4780-bff2-e94fe8838025"
-            alt="RALFeedback Logo"
-            width={408}
-            height={408}
-            className="h-20 w-auto animate-pulse-subtle cursor-pointer"
-          />
+          <span className="font-headline text-4xl font-bold text-primary cursor-pointer">RALReviews</span>
         </Link>
       </div>
       {user && (

@@ -29,13 +29,7 @@ export default function RootLayout({
           </div>
         </AuthProvider>
         <footer className="text-center text-sm text-muted-foreground py-4 flex flex-col items-center justify-center gap-2">
-            <Image
-                src="https://firebasestorage.googleapis.com/v0/b/ralfeedback.firebasestorage.app/o/img%2FRAL-logo-75%20(1).png?alt=media&token=a4c0cf51-d568-4780-bff2-e94fe8838025"
-                alt="RAL Logo"
-                width={102}
-                height={102}
-                className="h-6 w-auto animate-pulse-subtle"
-            />
+            <span className="font-headline text-base font-semibold text-primary">RALReviews</span>
             <p>© Restaurant Associates Jamaica Ltd. 2025</p>
         </footer>
         <Toaster />
