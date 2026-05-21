@@ -6,7 +6,7 @@
 **Fonts:** Alegreya (body serif) + Belleza (headline sans)
 **Source zip:** `Websites Code 9/RALreviews.zip` (2025-08-04, Firebase Studio export)
 
-**Live domain:** TBD — proposed `ral.mindwaveja.com` or `ralfeedback.com` (decision pending)
+**Live domain:** TBD — proposed `ral.mindwaveja.com` or `ralreviews.com` (decision pending)
 **VPS container:** Not deployed yet — proposed `mw-ral-reviews`
 **VPS port:** 3010 (pre-allocated; next free in 3000-series)
 **Repo:** Not yet its own git repo. Per CLAUDE.md INS-018, becomes `HammazoneRecords/ral-reviews` before first deploy.
